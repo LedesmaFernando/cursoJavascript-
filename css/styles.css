@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    height: 80px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;    
+}
+.navbar p{
+    font-size: 3rem;
+    color: white;
+    padding-top: 10px;
+}
+.cotizacion{
+    border: solid 4px blue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin: 20px 40px 0px 40px;
+}
+.dolares{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 10px 0px;
+    font-weight: bold;
+    border: solid red 2px;
+    border-radius: 10px;
+    width: 300px;
+}
+.carta p{
+    margin: 5px;
+}
+h4{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+.seleccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border: solid 4px blue;
+    border-radius: 10px;
+    margin: 20px 40px;
+    font-size: 20px;
+}
+.seleccion ul li{
+    margin: 10px;
+    list-style: none;
+}
+.seleccion ul li input{
+    font-size: 20px;
+}
+.boton{
+    padding: 15px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;    
+    width: 70%;
+    margin: 20px 40px 20px 0px;
+    border: solid 4px blue;
+    border-radius: 10px;
+}
+.tabla{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.tabla, th, td{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+th, td{
+    height: 30px;
+    padding: 0px 10px;
+    text-align: center;
+}
+.nuevo-producto{
+    border: solid 2px red;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+}
+.nuevo-producto h4{
+    font-size: 22px;
+    margin: 0 0 10px 40px;
+}
+.entrada{
+    width: 60%;
+    padding: 5px;
+    margin: 0 0 10px 80px;    
+    font-size: 20px;
+}
+.relleno{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: auto;
+}

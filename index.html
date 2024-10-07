@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <title>Proyecto Final</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <p>SuperChango - Gestion del Stock</p>
+    </nav>
+    <section class="cotizacion">
+        <h4>Dolar Hoy</h4>
+        <div class="dolares">
+            <div id="oficial" class="carta">
+            </div>
+            <div id="blue" class="carta">
+            </div>
+            <div id="contado-liqui" class="carta">
+            </div>
+            <div id="mayorista" class="carta">
+            </div>
+        </div>
+    </section>
+    <section class="contenido">
+        <div class="seleccion">
+            
+                <ul>
+                    <li><button class="boton" id="boton-ver">Ver Stock</button></li>
+                    <li><button class="boton" id="boton-agregar">Agregar Producto</button></li>
+                    <li><button class="boton" id="boton-buscar">Buscar Producto</button></li>
+                    <li><button class="boton" id="boton-precio">Cambiar precio</button></li>
+                    <li><button class="boton" id="boton-stock">Cambiar stock</button></li>
+                    <li><button class="boton" id="boton-eliminar">Eliminar Producto</button></li>
+                </ul>
+
+        </div>
+        <div class="resultado" id="resultado">
+           <h4 class="relleno">Bienvenido, que hacemos hoy?</h4>
+           
+            
+        </div>
+    </section>
+
+
+
+<script src="./js/main.js"></script>
+</body>
+</html>
